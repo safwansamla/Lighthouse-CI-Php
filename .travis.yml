@@ -1,0 +1,12 @@
+language: php
+php: '7.0'
+before_install:
+  - nvm install 10
+  - npm install -g @lhci/cli@0.3.x # install LHCI
+script: skip
+deploy:
+  provider: heroku
+  api_key: d91bd977-9f11-4242-8c04-dbc145306b30
+  app: lighthouse-ci-demo
+after_deploy:
+  - lhci autorun
