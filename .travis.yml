@@ -6,7 +6,7 @@ before_install:
 script: skip
 deploy:
   provider: heroku
-  api_key: d91bd977-9f11-4242-8c04-dbc145306b30
-  app: lighthouse-ci-demo
+  api_key: da6738a4-9a4e-49b2-9f52-d370e8bd5a36
+  app: lighthouse-ci-php
 after_deploy:
   - lhci autorun
