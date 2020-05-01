@@ -3,7 +3,7 @@
     "collect": {
       "numberOfRuns": 3,
       "url": [
-        "https://lighthouse-ci-demo.herokuapp.com/index.html"
+        "https://lighthouse-ci-php.herokuapp.com/index.html"
       ]
     },
     "upload": {
