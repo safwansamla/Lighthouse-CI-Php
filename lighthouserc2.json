@@ -2,7 +2,9 @@
   "ci": {
     "collect": {
       "numberOfRuns": 3,
-      "stagingDistDir": "./"
+      "url": [
+        "https://lighthouse-ci-php.herokuapp.com/index.html"
+      ]
     },
     "upload": {
       "target": "temporary-public-storage"
