@@ -4,6 +4,7 @@ before_install:
   - nvm install 10
   - npm install -g @lhci/cli@0.3.x # install LHCI
 script: skip
+after_success: lhci autorun
 deploy:
   provider: heroku
   api_key: da6738a4-9a4e-49b2-9f52-d370e8bd5a36
