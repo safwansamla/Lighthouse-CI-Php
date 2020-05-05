@@ -1,0 +1,11 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 3,
+      "stagingDistDir": "./"
+    },
+    "upload": {
+      "target": "temporary-public-storage"
+    }
+  }
+}
