@@ -9,5 +9,5 @@ deploy:
   provider: heroku
   api_key: da6738a4-9a4e-49b2-9f52-d370e8bd5a36
   app: lighthouse-ci-php
-after_deploy:
-  - lhci autorun
+#after_deploy:
+#  - lhci autorun
