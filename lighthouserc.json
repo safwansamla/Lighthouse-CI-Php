@@ -4,12 +4,6 @@
       "numberOfRuns": 3,
       "staticDistDir": "./"
     },
-    "assert": {
-      "assertions": {
-        "interactive": ["warn", {"maxNumericValue": 5000}],
-        "categories:performance": ["warn", {"minScore": 1.0}]
-      }
-    },
     "upload": {
       "target": "temporary-public-storage"
     }
