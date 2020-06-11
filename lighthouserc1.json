@@ -8,8 +8,9 @@
       "assertions": {
         "interactive": ["warn", {"maxNumericValue": 5000}],
         "categories:performance": ["warn", {"minScore": 1.0}],
-        "resource-summary:font:count": ["warn", {"maxNumericValue": 3}]
-      },
+        "resource-summary:font:count": ["warn", {"maxNumericValue": 1}]
+      }
+    },
     "upload": {
       "target": "temporary-public-storage"
     }
