@@ -2,7 +2,7 @@ language: php
 php: '7.0'
 before_install:
   - nvm install 10
-  - npm install -g @lhci/cli@0.3.x # install LHCI
+  - npm install -g @lhci/cli@0.5.x # install LHCI
 script: lhci autorun
 deploy:
   provider: heroku
